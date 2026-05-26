@@ -5,7 +5,7 @@ A monorepo of TypeScript packages for working with the Hypixel SkyBlock API.
 - **@skyblock‑ts/core** – a zero‑opinion, fully typed SkyBlock API client.  
 - **@skyblock‑ts/toolkit** – high‑level, batteries‑included utilities built on top of `@skyblock‑ts/core` (caching, filtering, stats, and more).
 
-[![MIT License](https://img.shields.io/github/license/unloopedmido/skyblockts.svg)](LICENSE)  
+[![MIT License](https://img.shields.io/github/license/nonlooped/skyblockts.svg)](LICENSE)  
 [![Node.js ≥16](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen.svg)](https://nodejs.org/)  
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.9%2B-blue.svg)](https://www.typescriptlang.org/)
 
@@ -40,7 +40,7 @@ const page0 = await client.auction.activeAuctions(0);
 console.log(`Auctions on page 1:`, page0.auctions.length);
 ```
 
-Browse the full API surface and response types in [`packages/core/src`](https://github.com/unloopedmido/skyblockts/tree/main/packages/core/src).
+Browse the full API surface and response types in [`packages/core/src`](https://github.com/nonlooped/skyblockts/tree/main/packages/core/src).
 
 ---
 
@@ -142,7 +142,7 @@ example().catch(console.error);
 > **Cache**: Results are cached in memory for `cacheTTL` ms (default: 3 minutes).  
 > **Batching**: Auction pages are fetched in parallel in chunks of `batchSize` (default: 10).
 
-Browse the source in [`packages/toolkit/src`](https://github.com/unloopedmido/skyblockts/tree/main/packages/toolkit/src) or see the generated types in `packages/toolkit/dist/index.d.ts`.
+Browse the source in [`packages/toolkit/src`](https://github.com/nonlooped/skyblockts/tree/main/packages/toolkit/src) or see the generated types in `packages/toolkit/dist/index.d.ts`.
 
 ---
 
@@ -151,7 +151,7 @@ Browse the source in [`packages/toolkit/src`](https://github.com/unloopedmido/sk
 If you clone this repo and want to work locally against all packages:
 
 ```bash
-git clone https://github.com/unloopedmido/skyblockts.git
+git clone https://github.com/nonlooped/skyblockts.git
 cd skyblockts
 pnpm install
 pnpm build        # builds all workspaces

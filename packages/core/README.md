@@ -103,4 +103,4 @@ _All methods return immutable TypeScript objects with full `.d.ts` definitions._
 
 ## API Reference
 
-Browse the full method signatures and response shapes in the [`packages/core/src`](https://github.com/unloopedmido/skyblockts/tree/main/packages/core/src) directory or view the generated type definitions in `dist/index.d.ts`.
+Browse the full method signatures and response shapes in the [`packages/core/src`](https://github.com/nonlooped/skyblockts/tree/main/packages/core/src) directory or view the generated type definitions in `dist/index.d.ts`.

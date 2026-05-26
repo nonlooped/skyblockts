@@ -124,6 +124,6 @@ or peek at the source under [`src/`](https://github.com/…/packages/toolkit/src
 
 ---
 
-Made with ❤️ by [@unloopedmido](https://github.com/unloopedmido/skyblockts).
+Made with ❤️ by [@nonlooped](https://github.com/nonlooped/skyblockts).
 
 MIT License — see [LICENSE](../../LICENSE).

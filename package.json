@@ -33,16 +33,16 @@
 	"author": {
 		"email": "cored.developments@gmail.com",
 		"name": "nonlooped",
-		"url": "https://github.com/unloopedmido"
+		"url": "https://github.com/nonlooped"
 	},
 	"repository": {
 		"directory": "packages/core",
 		"type": "git",
-		"url": "https://github.com/unloopedmido/skyblockts"
+		"url": "https://github.com/nonlooped/skyblockts"
 	},
 	"funding": {
 		"type": "github",
-		"url": "https://github.com/sponsors/unloopedmido"
+		"url": "https://github.com/sponsors/nonlooped"
 	},
 	"engines": {
 		"node": ">=16.0.0"
